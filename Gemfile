@@ -11,6 +11,8 @@ gem 'grape'
 gem 'grape-swagger'
 # Use Grape-Swagger-Rails for Swagger UI
 gem 'grape-swagger-rails'
+# Use Rack-CORS for Cross-Origin Resource Sharing
+gem 'rack-cors', :require => 'rack/cors'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
